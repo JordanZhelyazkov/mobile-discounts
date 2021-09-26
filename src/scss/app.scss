@@ -27,9 +27,13 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+@media screen and (min-width:600px) {
 .discounts {
   display: none;
  }
+}
+
  @media screen and (max-width:599px) {
   .discounts {
    display: block;
