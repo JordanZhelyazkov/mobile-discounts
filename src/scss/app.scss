@@ -28,12 +28,12 @@ html {
   flex-flow: column;
 }
 
-@media screen and (min-width:600px) {
-.discounts {
-  display: none;
-  visibility: hidden;
- }
-}
+// @media screen and (min-width:600px) {
+// .discounts {
+//   display: none;
+//   visibility: hidden;
+//  }
+// }
 
 //  @media screen and (max-width:599px) {
 //   .discounts {
@@ -43,3 +43,11 @@ html {
 
 // }
 
+.discounts {
+  display:none;
+}
+@media screen and (max-width:599px) {
+  .discounts {
+    display:block;
+  }
+}
