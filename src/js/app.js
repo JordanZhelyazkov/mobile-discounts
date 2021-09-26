@@ -5,9 +5,9 @@ window.addEventListener("DOMContentLoaded", () => {
   const discountEl = document.querySelector('.discounts');
   console.log(discountEl);
   if(screen.width < 600){
-    discountEl.style.display = 'block';
+    discountEl.style.visibility = 'visible';
   } else {
-    discountEl.style.display = 'none';
+    discountEl.style.visibility = 'hidden';
   }
   console.log(screen.width);
   const button = document.querySelector(".button");
