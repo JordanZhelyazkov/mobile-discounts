@@ -4,7 +4,9 @@ window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
   const discountEl = document.querySelector('.discounts');
   console.log(discountEl);
-  if(screen.width > 599){
+  if(screen.width < 600){
+    discountEl.style.display = 'block';
+  } else {
     discountEl.style.display = 'none';
   }
   console.log(screen.width);
