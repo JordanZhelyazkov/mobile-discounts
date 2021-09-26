@@ -28,11 +28,11 @@ html {
   flex-flow: column;
 }
 .discounts {
-  display: block;
+  display: none;
  }
- @media screen and (min-width:600px) {
+ @media screen and (max-width:599px) {
   .discounts {
-   display: none;
+   display: block;
   }
 
 }
